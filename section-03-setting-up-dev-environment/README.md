@@ -14,4 +14,6 @@
 
 - We will not use Maven yet for simplicity
 
+- I downloaded the dependencies from [here](https://repo.spring.io/ui/repos/tree/General/) and navigated to libs-release>org>springframework>spring>5.3.8>spring-5.3.8-dist.zip
+
 - I created a new Java project with name 'spring-demo-one' and create a folder named 'lib' to be alongside src folder
