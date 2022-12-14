@@ -14,6 +14,11 @@
 
 - We will not use Maven yet for simplicity
 
+I created a Java project in the section-03-setting-up-dev-environment directory using Java 11 RTE.
+
 - I downloaded the dependencies from [here](https://repo.spring.io/ui/repos/tree/General/) and navigated to libs-release>org>springframework>spring>5.3.8>spring-5.3.8-dist.zip
+
+
+- I unzipped the folder and took the files from the lib folder and added it to the lib folder in spring-demo-one folder
 
 - I created a new Java project with name 'spring-demo-one' and create a folder named 'lib' to be alongside src folder
