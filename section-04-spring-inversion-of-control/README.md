@@ -56,7 +56,7 @@ A MainApp class was created:
 3) Retrieve Beans from Spring Container
 
 
-#### Code Demo 1
+#### Code Demo 2
 
 - I took a copy of an applicationContext.xml file from the starter files which contained the following:
 
@@ -100,4 +100,12 @@ A MainApp class was created:
 			
 		}
 
-    
+#### Code Demo 3
+
+- I will test my code is working by replacing the bean in the configuration file:
+
+		<bean id="myCoach"
+		    class ="com.shivkumar.BaseballCoach">
+		</bean>
+		
+- This changed the output of my application! So the inversion of control is working!
