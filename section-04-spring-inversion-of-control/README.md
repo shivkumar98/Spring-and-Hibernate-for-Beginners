@@ -9,7 +9,7 @@
 - We will build a MyApp class which executes a getDailyWorkout() method from a BaseballCoach class
 - The app should be configurable and the BaseballCoach should substitutable
 
-### Code Demo
+#### Code Demo 1
 
 A BaseballCoach class was created:
 
@@ -33,6 +33,24 @@ A MainApp class was created:
 			}
 		}
 
-The code was then refactored to use a Coach interface which the BaseballCoach implemented
+- The code was then refactored to use a Coach interface which the BaseballCoach implemented
 
-This change allows the coach to be substitutable but the app is not configurable, i.e. we should be able to change configuration rather than source code
+- This change allows the coach to be substitutable but the app is not configurable, i.e. we should be able to change configuration rather than source code
+
+#### Ideal Solution
+
+- Spring provides a object factory using a Spring Container which is configurable
+
+- We can configure a Spring container in 3 ways:
+
+1) XML configuration (legacy but lots of apps use it)
+
+2) Java annotations
+
+3) Java Source Code
+
+- Spring Development Process:
+
+1) Configure your Spring Beans
+2) Create a Spring Container
+3) Retrieve Beans from Spring Container
